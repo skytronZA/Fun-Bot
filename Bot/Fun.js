@@ -77,12 +77,7 @@ Funbot.admins = ["50aeaeb6c3b97a2cb4c25bd2"];
 
 // Random announcements.
 var announcements = [
- "Check our website! www.bybservers.co.uk"
- "Don't forget to check out the rules in the channels description!"
- "ByB hosts a veriety of Garry's Mod servers as well as other types of servers!"
- "Join our TeamSpeak and flirt with the duck! (Flirting not promosed!) : 70.42.74.6 "
- "Have fun, be careful and enjoy!"
- 
+ "Check our website @ www.bybservers.co.uk | Teamspeak : 70.42.74.6 | Rules are located in the description of the channel!"
 ];
 
 // Keywords of blocked songs
