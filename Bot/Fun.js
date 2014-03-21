@@ -48,7 +48,7 @@ toSave = {};
 toSave.settings = Funbot.settings;
 toSave.moderators = Funbot.moderators;
  
-Funbot.misc.version = "1.0.49";
+Funbot.misc.version = "1.0.0";
 Funbot.misc.origin = "This bot was created by DJ - ɴᴇᴏɴ - TFL, and it is copyrighted!";
 Funbot.misc.ready = true;
 var songBoundary = 60 * 10;
@@ -1196,7 +1196,7 @@ function chatMe(msg)
         });
     }, 3000);
  
-    API.sendChat('Fun Bot version '+Funbot.misc.version+' Activated!');
+    API.sendChat('TN.ChatBot '+Funbot.misc.version+' has become alive and active!');
    }else{
     alert("This bot can only function at http://plug.dj/community");
    };
